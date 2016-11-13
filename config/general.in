@@ -1,0 +1,26 @@
+# Comments start with a '#'.
+# The following are default values.
+
+# gd_mode == 0: Batch GD
+# gd_mode == 1: Mini-batch SGD
+# gd_mode == 2: Adaptive SGD
+gd_mode               1
+batch_size            1
+num_features          128
+learning_rate         0.003
+regularization_factor 0.05
+max_num_iterations    70
+# decomp_mode == 0: one record per thread
+# decomp_mode == 1: one user per thread
+# decomp_mode == 2: one feature component per thread
+decomp_mode           2
+# lock == 0: Lock-free
+# lock == 1: Lock-based
+lock                  0
+# precision == 0: Half precision
+# precision == 1: Single precision
+# precision == 2: Double precision
+precision             0
+show_train_rmse       0
+show_test_rmse        0
+

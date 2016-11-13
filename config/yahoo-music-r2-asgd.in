@@ -1,0 +1,12 @@
+gd_mode               2
+batch_size            1
+num_features          128
+learning_rate         0.1
+regularization_factor 1
+max_num_iterations    50
+decomp_mode           2
+lock                  0
+precision             0
+show_train_rmse       0
+show_test_rmse        1
+
