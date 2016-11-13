@@ -1,5 +1,4 @@
-# FactorG-cluster: a distributed matrix factorizer with stochastic gradient
-descent on GPU clusters
+# FactorG-cluster: a distributed matrix factorizer with stochastic gradient descent on GPU clusters
 
 This repository is a CUDA + MPI implementation of matrix factorization with
 stochastic gradient descent.
